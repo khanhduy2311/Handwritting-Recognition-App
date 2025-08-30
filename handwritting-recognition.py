@@ -103,10 +103,10 @@ HTML_PAGE = """
   </style>
 </head>
 <body>
-  <h2>🖌️ Draw a digit (0–9)</h2>
+  <h2> Draw a digit (0–9)</h2>
   <canvas id="canvas" width="280" height="280"></canvas><br>
-  <button class="btn" onclick="clearCanvas()">🧹 Clear</button>
-  <button class="btn" onclick="predict()">🔮 Predict</button>
+  <button class="btn" onclick="clearCanvas()"> Clear</button>
+  <button class="btn" onclick="predict()">Predict</button>
   <div id="result">Prediction: ...</div>
 
   <script>
